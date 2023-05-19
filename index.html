@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>OOP</title>
+</head>
+<body>
+   
+<p id="disp"></p>
+
+   <script>
+
+      class students {
+         constructor(studentName,studentAge,matricNo,studentCgpa){
+            this.studentName =studentName;
+            this.studentAge = studentAge;
+            this.matricNo = matricNo;
+            this.studentCgpa =studentCgpa
+         }
+
+         move(){
+            console.log(`${this.studentName} is is a very good student of LADOKE AKINTOLA UNIVERSITY and as a 
+             GGPA of ${this.studentCgpa} with a matric number of ${this.matricNo} `);
+           
+
+            disp.innerHTML==`${this.studentName} is a very good student of LADOKE AKINTOLA UNIVERSITY and as a 
+             GGPA of ${this.studentCgpa} with a matric number of ${this.matricNo} `
+         }
+      }
+      let student1 =new students ('Azeezat',20,180626,3.96)
+      let student2 =new students ('Azeemat',21,180628,2.96)
+      let student3 =new students ('Dolapo',22,180629,2.96)
+      let student4 =new students ('Adeyinka',23,180630,3.56)
+      let student5 =new students ('Yetunde',24,180632,2.26)
+      let student6 =new students ('Ahmed',25,180643,4.96)
+      let student7 =new students ('Temiloluwa',26,180667,2.96)
+      let student8 =new students ('Suzan',27,180656,2.96)
+      let student9 =new students ('Odunola',28,180634,2.92)
+      let student10 =new students ('Eniola',29,180653,2.94)
+
+      console.log(student1,student2,student3,student4,student5,student6,student7,student8,student9,student10);
+   </script>
+</body>
+</html>
